@@ -1,0 +1,20 @@
+{
+  "name": "functional-validation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "validator.js",
+  "scripts": {
+    "build": "webpack validator.js dist/app.js",
+    "dev": "webpack --watch validator.js dist/app.js"
+  },
+  "author": "Loren Stewart",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "webpack": "^2.5.1"
+  }
+}
