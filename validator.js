@@ -6,6 +6,9 @@ import {
   favoriteAnimal
 } from "./validation/rules";
 
+// if you don't want to use Lodash, this will work:
+// const pipe = (...fns) => x => fns.reduce((y, f) => f(y), x);
+
 // create a validator by composing rule functions
 const newMemberValidator = pipe(
   favoriteCarIsFiat,

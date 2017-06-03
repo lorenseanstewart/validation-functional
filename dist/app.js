@@ -8294,6 +8294,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
+// if you don't want to use Lodash, this will work:
+// const pipe = (...fns) => x => fns.reduce((y, f) => f(y), x);
+
 // create a validator by composing rule functions
 const newMemberValidator = __WEBPACK_IMPORTED_MODULE_0_lodash_fp_flow___default()(
   __WEBPACK_IMPORTED_MODULE_2__validation_rules__["a" /* favoriteCarIsFiat */],
